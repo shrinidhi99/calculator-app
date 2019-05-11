@@ -8,16 +8,17 @@
 <ImageView
     android:layout_width="180dp"
     android:layout_height="180dp"
-    android:id="@+id/splashicon"
+    android:id="@+id/iv"
     android:src="@mipmap/splashicon_round"
     android:layout_centerInParent="true"
     />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/splashicon"
+        android:layout_below="@id/iv"
         android:text="Calculator"
         android:textSize="25sp"
+        android:id="@+id/tv"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 </RelativeLayout>
